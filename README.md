@@ -16,13 +16,14 @@
 1. Clone o repositório:
 
     ```bash
-    git clone <link-do-repositorio-https>
-    cd backend
+    git clone https://github.com/fernandacodes/prisma-backend.git
+    cd prisma-backend
     ```
 
 2. execute o comando abaixo usando o docker:
 
-    ```docker compose up -d
+    ```
+    docker compose up -d
     ```
 
 ## Endpoints abaixo
