@@ -9,35 +9,24 @@
 - JWT para autenticação
 - Bcrypt para hash de senhas
 - PostgreSQL
+- Docker
 
 ## Como Rodar
 
 1. Clone o repositório:
 
     ```bash
-    git clone <link-do-repositorio>
+    git clone <link-do-repositorio-https>
     cd backend
     ```
 
-2. Instale as dependências:
+2. execute o comando abaixo usando o docker:
 
-    ```bash
-    npm install
+    ```docker compose up -d
     ```
 
-3. Configure o Prisma:
-
-    ```bash
-    npx prisma migrate dev --name init
-    ```
-
-4. Rode o servidor:
-
-    ```bash
-    npm run dev
-    ```
-
-## Endpoints
+## Endpoints abaixo
+## OBS : o projeto esta rodando na porta 5000
 
 - `POST /users/create` - Cria um novo usuário
 - `POST /auth/login` - Autentica um usuário e retorna um token
